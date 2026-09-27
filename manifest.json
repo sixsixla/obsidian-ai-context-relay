@@ -1,0 +1,9 @@
+{
+  "id": "ai-context-relay",
+  "name": "AI Context Relay",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Copy note paths, headings, line ranges, and selected text as an AI agent handoff.",
+  "author": "Codex",
+  "isDesktopOnly": true
+}

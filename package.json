@@ -1,0 +1,17 @@
+{
+  "name": "obsidian-ai-context-relay",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Copy Obsidian note context as a handoff for local AI agents.",
+  "scripts": {
+    "build": "node esbuild.config.mjs",
+    "dev": "node esbuild.config.mjs --watch",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "esbuild": "^0.28.0",
+    "obsidian": "^1.13.1",
+    "typescript": "^5.9.0"
+  }
+}
